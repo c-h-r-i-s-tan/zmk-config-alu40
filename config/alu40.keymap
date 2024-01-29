@@ -39,9 +39,9 @@
         default_layer {
             // -----------------------------------------------------------------------------------------
             // | ESC/~ |  Q   |  W   |  E   |  R   |  T   |   Y   |  U    |  I   |  O   |   P   | BSPC  |
-            // | TAB   |  A   |  S   |  D   |  F   |  G   |   H   |  J    |  K   |  L   |   ;   |  '    |
-            // | SHIFT |  Z   |  X   |  C   |  V   |  B   |   N   |  M    |  ,   |  .   |   /   |RET/SFT|
-            // | PLAY  | LCTL | LALT | LGUI | LOWR |     SPACE    |  RAIS | LARW | UARW | DARW  |  RARW |
+            // | TAB   |  A   |  S   |  D   |  F   |  G   |   H   |  J    |  K   |  L   |   "   | ENTR  |
+            // | SHIFT |  Z   |  X   |  C   |  V   |  B   |   N   |  M    |  ,   |  .   |   /   |  SFT  |
+            // | MO(6) | LCTL | LALT | LGUI |    LOWR     |     RAIS      | RGUI | RALT | RCTL  | MO(5) |
 
             bindings = <
 &kp ESC    &kp Q             &kp W     &kp E     &kp R        &kp T  &kp Y  &kp U        &kp I         &kp O          &kp P                 &kp BSPC

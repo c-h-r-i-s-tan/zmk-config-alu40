@@ -58,7 +58,7 @@
 &none     &none  &none     &kp UP_ARROW    &none            &kp TILDE  &none      &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp DELETE  &kp BACKSPACE
 &kp CLCK  &none  &kp LEFT  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp GRAVE  &kp MINUS  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp PLUS    &trans
 &trans    &none  &none     &none           &none            &none      &kp UNDER  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp EQUAL   &trans
-&none     &none  &none     &none           &trans           &none      &none      &mo 3         &kp NUMBER_0  &kp KP_DOT    &none       &none
+&none     &none  &none     &none           &trans           &none      &none      &mo 3         &kp NUMBER_0  &kp DOT       &none       &none
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PG_DN>;

@@ -11,13 +11,6 @@
 
 / {
     macros {
-        ISLHD: ISLHD {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp F &kp R &kp I &kp D &kp A &kp Y &kp DOT &kp N0>;
-            label = "ISLHD";
-        };
-
         EMPLY: EMPLY {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -30,6 +23,13 @@
             #binding-cells = <0>;
             bindings = <&none &kp PLUS &kp N6 &kp M>;
             label = "PLUS6M";
+        };
+
+        ISLHD: ISLHD {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp M &kp O &kp N &kp D &kp A &kp Y &kp PERIOD &kp NUMBER_8>;
+            label = "ISLHD";
         };
     };
 
